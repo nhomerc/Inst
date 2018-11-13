@@ -1,0 +1,41 @@
+.portfolio {
+  margin: 0 auto;
+  padding-top: 29px;
+
+  background-color: #0b0a09;
+}
+
+.page-main__title {
+  position: relative;
+
+  width: 540px;
+  margin: 0 auto;
+  padding: 0;
+
+
+  font-size: 30px;
+  color: #e5e4ab;
+  text-align: center;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: -60px;
+    top: 50%;
+
+    width: 40px;
+
+    border: 1px solid #5e5b52;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    right: -60px;
+    top: 50%;
+
+    width: 40px;
+
+    border: 1px solid #5e5b52;
+  }
+}

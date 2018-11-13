@@ -1,0 +1,34 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.page-header__link {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  min-width: 132px;
+  padding: 12px 0;
+  padding-left: 20px;
+  padding-right: 24px;
+
+  border-radius: 10px;
+
+  background: linear-gradient(to top, #000000, #4d4d4d);
+}
+
+.page-header__link-img {
+  width: 32px;
+  height: 32px;
+  align-self: center;
+}
+
+.page-header__link-text {
+  margin: 0;
+  padding: 0;
+  align-self: center;
+
+  font-size: 27px;
+}
