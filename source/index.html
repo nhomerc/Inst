@@ -29,22 +29,28 @@
 
     <main class="page-main">
       <section class="portfolio">
-        <h1 class="page-main__title">Portfolio speaks louder than words!</h1>
-        <p class="page-main__text">we know that the quality of our work is a base of our success...</p>
-        <ul class="portfolio__list">
-          <li class="portfolio__item">
-            <img class="portfolio__img" src="img/260x155.png" width="260" height="155">
-            <p class="portfolio__subtitle">Print Folio</p>
-          </li>
-          <li class="portfolio__item portfolio__item--active">
-            <img class="portfolio__img" src="img/318x193.png" width="318" height="193">
-            <p class="portfolio__subtitle">Web Folio</p>
-          </li>
-          <li class="portfolio__item">
-            <img class="portfolio__img" src="img/260x155.png" width="260" height="155">
-            <p class="portfolio__subtitle">Photo Folio</p>
-          </li>
-        </ul>
+        <div class="portfolio__wrap">
+          <h1 class="portfolio__title">Portfolio speaks louder than words!</h1>
+          <p class="portfolio__text">we know that the quality of our work is a base of our success...</p>
+          <div class="portfolio__wrapper">
+            <button class="portfolio__button portfolio__button--previous" type="button"></button>
+            <button class="portfolio__button portfolio__button--next" type="button"></button>
+            <ul class="portfolio__list">
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="img/260x155.png" width="260" height="155">
+                <p class="portfolio__subtitle">Print Folio</p>
+              </li>
+              <li class="portfolio__item portfolio__item--active">
+                <img class="portfolio__img" src="img/318x193.png" width="318" height="193">
+                <p class="portfolio__subtitle">Web Folio</p>
+              </li>
+              <li class="portfolio__item">
+                <img class="portfolio__img" src="img/260x155.png" width="260" height="155">
+                <p class="portfolio__subtitle">Photo Folio</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
       <div class="page-main__wrapper">
         <section class="about">
@@ -73,21 +79,26 @@
     </main>
 
     <footer class="page-footer">
-      <div class="page-footer__history">
-        <h2 class="page-footer__title">Company history</h2>
-        <img class="page-footer__img" src="#" alt="Art Zone">
+      <div class="page-footer__wrapper">
+        <div class="page-footer__history">
+          <h2 class="page-footer__title">Company history</h2>
+          <img class="page-footer__img" src="img/footer-image.png" alt="Art Zone">
+        </div>
+        <div class="page-footer__links">
+          <h2 class="page-footer__title">Our work team</h2>
+          <ul class="page-footer__list">
+            <li class="page-footer__item"><a class="page-footer__link" href="#">Praesent vestibulum molestie</a></li>
+            <li class="page-footer__item"><a class="page-footer__link" href="#">Aenean nonummy hendrerit mauris hase</a></li>
+          </ul>
+        </div>
+        <div class="page-footer__login">
+          <h2 class="page-footer__title">Login Form</h2>
+          <form class="page-footer__form">
+            <input class="page-footer__input" type="text" placeholder="User Name" required>
+            <input class="page-footer__input" type="password" placeholder="********" required>
+          </form>
+        </div>
       </div>
-      <div class="page-footer__links">
-        <h2 class="page-footer__title">Our work team</h2>
-        <ul class="page-footer__list">
-          <li class="page-footer__item"><a class="page-footer__link" href="#">Praesent vestibulum molestie</a></li>
-          <li class="page-footer__item"><a class="page-footer__link" href="#">Aenean nonummy hendrerit mauris hase</a></li>
-        </ul>
-      </div>
-      <form class="page-footer__form">
-        <input class="page-footer__input" type="text" required>
-        <input class="page-footer__input" type="password" required>
-      </form>
     </footer>
   </div>
 </body>

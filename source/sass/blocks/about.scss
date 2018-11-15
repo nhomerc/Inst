@@ -1,0 +1,38 @@
+.about {
+  width: 600px;
+  margin-right: 50px;
+}
+
+.about__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 33px;
+
+  font-size: 21px;
+}
+
+.about__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+
+  font-size: 12px;
+
+  &--bold {
+    font-weight: bold;
+  }
+}
+
+.about__btn {
+  padding: 12px 33px;
+
+  color: #000000;
+
+  border: none;
+  border-radius: 5px;
+
+  background: linear-gradient(to top, #dbc792, #f5e8c5);
+  box-shadow: 2px 2px 5px -2px #000000;
+
+  cursor: pointer;
+}
